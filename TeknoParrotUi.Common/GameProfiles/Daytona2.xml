@@ -3,8 +3,9 @@
 	<GamePath></GamePath>
 	<TestMenuParameter></TestMenuParameter>
 	<TestMenuIsExecutable>false</TestMenuIsExecutable>
-	<ExtraParameters></ExtraParameters>
+	<ExtraParameters>daytona2.zip</ExtraParameters>
 	<TestMenuExtraParameters></TestMenuExtraParameters>
+	<ExecutableName>Supermodel.exe</ExecutableName>
 	<EmulationProfile>RawThrillsFNF</EmulationProfile>
 	<GameProfileRevision>1</GameProfileRevision>
 	<HasSeparateTestMode>false</HasSeparateTestMode>
