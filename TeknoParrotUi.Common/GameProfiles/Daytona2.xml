@@ -46,10 +46,47 @@
 			<FieldOptions></FieldOptions>
 		</FieldInformation>
 		<FieldInformation>
+			<CategoryName>General</CategoryName>
+			<FieldName>Region</FieldName>
+			<FieldValue>Japan</FieldValue>
+			<FieldType>Dropdown</FieldType>
+			<FieldOptions>
+				<string>Japan</string>
+				<string>USA</string>
+				<string>Euro</string>
+				<string>Australia</string>
+				<string>Korea</string>
+			</FieldOptions>
+		</FieldInformation>
+		<FieldInformation>
+			<CategoryName>General</CategoryName>
+			<FieldName>Cabinet</FieldName>
+			<FieldValue>Twin</FieldValue>
+			<FieldType>Dropdown</FieldType>
+			<FieldOptions>
+				<string>Twin</string>
+				<string>Deluxe</string>
+				<string>Sitdown</string>
+				<string>Uplight</string>
+			</FieldOptions>
+		</FieldInformation>
+		<FieldInformation>
 			<CategoryName>Network</CategoryName>
-			<FieldName>CarID</FieldName>
-			<FieldValue>41</FieldValue>
+			<FieldName>CarID (1-16)</FieldName>
+			<FieldValue>1</FieldValue>
 			<FieldType>Text</FieldType>
+		</FieldInformation>
+		<FieldInformation>
+			<CategoryName>Network</CategoryName>
+			<FieldName>Mode</FieldName>
+			<FieldValue>Master</FieldValue>
+			<FieldType>Dropdown</FieldType>
+			<FieldOptions>
+				<string>Master</string>
+				<string>Slave</string>
+				<string>Relay</string>
+				<string>Single (car 41)</string>
+			</FieldOptions>
 		</FieldInformation>
 	</ConfigValues>
 	<JoystickButtons>
@@ -98,6 +135,10 @@
 			<InputMapping>P1Button4</InputMapping>
 		</JoystickButtons>
 		<JoystickButtons>
+			<ButtonName>Emergency Stop (Deluxe)</ButtonName>
+			<InputMapping>P1Button5</InputMapping>
+		</JoystickButtons>
+		<JoystickButtons>
 			<ButtonName>Test</ButtonName>
 			<InputMapping>Test</InputMapping>
 		</JoystickButtons>
@@ -120,14 +161,14 @@
 			<AnalogType>Wheel</AnalogType>
 		</JoystickButtons>
 		<JoystickButtons>
-			<ButtonName>Wheel Axis Left</ButtonName>
+			<ButtonName>Wheel Axis Left/move cockpit left</ButtonName>
 			<InputMapping>Analog0</InputMapping>
 			<HideWithXInput>true</HideWithXInput>
 			<HideWithoutKeyboardForAxis>true</HideWithoutKeyboardForAxis>
 			<AnalogType>Wheel</AnalogType>
 		</JoystickButtons>
 		<JoystickButtons>
-			<ButtonName>Wheel Axis Right</ButtonName>
+			<ButtonName>Wheel Axis Right/Move cockpit left</ButtonName>
 			<InputMapping>Analog0</InputMapping>
 			<HideWithXInput>true</HideWithXInput>
 			<HideWithoutKeyboardForAxis>true</HideWithoutKeyboardForAxis>
